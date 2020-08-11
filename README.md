@@ -79,14 +79,3 @@ jobs:
           app-name: <WEB_APP_NAME>
           publish-profile: ${{ secrets.AZURE_WEB_APP_PUBLISH_PROFILE }}
 ```
-
-The following variable should be replaced in your workflow:
-
-- `<WEB_APP_NAME>`
-    - Name of the web app that's being deployed
-
-The following variable should be set in the GitHub repository's secrets store:
-
-- `AZURE_WEB_APP_PUBLISH_PROFILE`
-    - The contents of the publish profile file (`.publishsettings`) used to deploy the web app; for more information on setting this secret, please see the [`azure/webapps-deploy`](https://github.com/Azure/webapps-deploy) action
-
