@@ -1,4 +1,4 @@
-name: 'Will App Service Web App Build Action'
+name: 'Willaa App Service Web App Build a'
 description: 'Build an Azure Web App on Linux using the Oryx build system.'
 inputs:
   source-directory:
